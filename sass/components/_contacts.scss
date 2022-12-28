@@ -6,7 +6,8 @@
     @include font(14, 1.14, 0.02);
     color: $text-color;
     text-decoration: none;
-    @include flex(flex, center, none);
+    display: flex;
+    align-items: center;
     transition: $duration $timing-function;
     }
         &__list:hover,

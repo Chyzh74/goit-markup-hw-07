@@ -103,8 +103,7 @@ ul {
   color: #757575;
   text-decoration: none;
   display: flex;
-  justify-content: center;
-  align-items: none;
+  align-items: center;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts__list:hover, .contacts__list:focus {
@@ -144,7 +143,6 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 .hero__title {
   color: #ffffff;
@@ -174,8 +172,7 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   width: 216px;
-  position: absolute;
-  left: 692px;
+  margin-left: 477px;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero__btn:hover, .hero__btn:focus {
@@ -264,7 +261,8 @@ ul {
   flex-wrap: wrap;
   gap: 30px;
   width: 1170px;
-  margin-left: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .team__section {
   padding-top: 94px;
@@ -280,7 +278,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: noneem;
+  letter-spacing: 0.03em;
   text-align: center;
   margin-bottom: 50px;
 }

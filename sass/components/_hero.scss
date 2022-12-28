@@ -9,8 +9,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-    position: relative;
     &__title {
         color: $main-color;
         font-weight: 900;
@@ -40,10 +38,8 @@
         border-radius: 4px;
 
         width: 216px;
-
-        position: absolute;
-        left: 692px;
-        
+        margin-left: 477px;
+              
         transition: $duration $timing-function;
     }
     &__btn:hover,

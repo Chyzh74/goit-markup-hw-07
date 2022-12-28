@@ -5,7 +5,8 @@
     gap: 30px;
 
     width: 1170px;
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
     &__section {
         padding-top: 94px;
     }
@@ -18,7 +19,7 @@
     &__title {
         color: $header-color;
         font-weight: 700;
-        @include font(36, 1.16, none);
+        @include font(36, 1.16, 0.03);
         text-align: center;
 
         margin-bottom: 50px;
