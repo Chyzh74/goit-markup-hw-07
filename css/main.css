@@ -224,6 +224,7 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+  padding-bottom: 94px;
 }
 .activity__title {
   text-align: center;
@@ -261,17 +262,11 @@ ul {
   flex-wrap: wrap;
   gap: 30px;
   width: 1170px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .team__section {
   padding-top: 94px;
-}
-.team__box {
-  background-color: #f5f4fa;
-  width: 1600px;
-  padding-top: 94px;
   padding-bottom: 94px;
+  background-color: #f5f4fa;
 }
 .team__title {
   color: #000000;
@@ -398,9 +393,12 @@ ul {
   color: #ffffff;
 }
 
+.footer {
+  background-color: #2f303a;
+}
+
 .address {
   padding: 60px 215px;
-  background-color: #2f303a;
   height: 252px;
   width: 1600px;
   display: flex;

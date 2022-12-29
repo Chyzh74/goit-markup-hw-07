@@ -3,11 +3,11 @@
     @include font(26, 1.19, 0.03);
     color: $main-color;
 }
-
+.footer {
+    background-color: $background-color;
+}
 .address {
     padding: 60px 215px;
-    background-color: $background-color;
-
     height: 252px;
     width: 1600px;
 

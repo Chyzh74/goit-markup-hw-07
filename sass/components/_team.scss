@@ -3,17 +3,14 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
-
+    
     width: 1170px;
     &__section {
         padding-top: 94px;
-    }
-    &__box {
-        background-color: #f5f4fa;
-        padding-top: 94px;
         padding-bottom: 94px;
+        background-color: #f5f4fa;
     }
-    &__title {
+     &__title {
         color: $header-color;
         font-weight: 700;
         @include font(36, 1.16, 0.03);
